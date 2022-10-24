@@ -1,0 +1,46 @@
+.item{
+position: relative;
+display: flex;
+justify-content: center;
+}
+.item img{
+    width: 100%;
+}
+.item-caption{
+position: absolute;
+width: 80%;
+left: 10%;
+bottom: 20px;
+opacity: .8;
+text-align: center;
+}
+.lightbox-container{
+    position: fixed;
+    inset:0;
+    background-color: rgba(0,0,0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none; 
+}
+.lightbox-item{
+   width: 60%;
+   height: 70%;
+   position: relative;
+   background-size: cover;
+   background-image: url(../images/floral-seamless-pattern-element-arabian-style-arabesque-pattern-eastern-ethnic-ornament_1217-1151.jpg);
+   
+   
+} 
+#close{
+    position: absolute;
+    top: 12px;
+    right: 12px;
+}
+.lightbox-icons{
+    display: flex; 
+   align-items: center; 
+   justify-content: space-between;
+   margin-top: 30%;
+   
+}
